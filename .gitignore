@@ -1,0 +1,31 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor/project noise
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build/distribution
+build/
+dist/
+*.egg-info/
+
+# Data and results
+results/*
+data/graphs/*
+data/raw/*

@@ -1,0 +1,1777 @@
+{
+  "configuration": {
+    "dataset": "data\\graphs",
+    "evaluation": "subject-level LOSO",
+    "source_csv": "subject_feature_loso_results.csv",
+    "notes": "Converted from subject_feature_loso_results.csv"
+  },
+  "representations": {
+    "mean": {
+      "classifiers": {
+        "logistic_regression": {
+          "label": "LogisticRegression",
+          "metrics": {
+            "accuracy": 0.75,
+            "balanced_accuracy": 0.75,
+            "sensitivity": 0.7,
+            "specificity": 0.8,
+            "true_negative": 8,
+            "false_positive": 2,
+            "false_negative": 3,
+            "true_positive": 7
+          },
+          "results": [
+            {
+              "fold": 1,
+              "subject": "co2a0000364",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 12.380087901562629,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 2,
+              "subject": "co2a0000365",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 2.0100405347517043,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 3,
+              "subject": "co2a0000368",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 7.139798334119034,
+              "n_trials": 24,
+              "correct": true
+            },
+            {
+              "fold": 4,
+              "subject": "co2a0000369",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -6.869482337297135,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 5,
+              "subject": "co2a0000370",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 6.609176847649067,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 6,
+              "subject": "co2a0000371",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 8.774379031178306,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 7,
+              "subject": "co2a0000372",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 2.3877578636597576,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 8,
+              "subject": "co2a0000375",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -4.560759336717007,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 9,
+              "subject": "co2a0000377",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 7.300019766651107,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 10,
+              "subject": "co2a0000378",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -5.060287977175604,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 11,
+              "subject": "co2c0000337",
+              "actual": 0,
+              "prediction": 1,
+              "decision_score": 2.7028995357799124,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 12,
+              "subject": "co2c0000338",
+              "actual": 0,
+              "prediction": 1,
+              "decision_score": 3.797574392363834,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 13,
+              "subject": "co2c0000339",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -3.8362406512813223,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 14,
+              "subject": "co2c0000340",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -7.297523466467792,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 15,
+              "subject": "co2c0000341",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -3.3845968251952145,
+              "n_trials": 29,
+              "correct": true
+            },
+            {
+              "fold": 16,
+              "subject": "co2c0000342",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.12255774181173262,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 17,
+              "subject": "co2c0000344",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -1.9490165246721982,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 18,
+              "subject": "co2c0000345",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -4.794622958355096,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 19,
+              "subject": "co2c0000346",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.8910634104390661,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 20,
+              "subject": "co2c0000347",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -5.175793340522345,
+              "n_trials": 30,
+              "correct": true
+            }
+          ]
+        },
+        "linear_svm": {
+          "label": "LinearSVM",
+          "metrics": {
+            "accuracy": 0.7,
+            "balanced_accuracy": 0.7,
+            "sensitivity": 0.7,
+            "specificity": 0.7,
+            "true_negative": 7,
+            "false_positive": 3,
+            "false_negative": 3,
+            "true_positive": 7
+          },
+          "results": [
+            {
+              "fold": 1,
+              "subject": "co2a0000364",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 2.8671284698755266,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 2,
+              "subject": "co2a0000365",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.39861589282403526,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 3,
+              "subject": "co2a0000368",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 1.330308112178027,
+              "n_trials": 24,
+              "correct": true
+            },
+            {
+              "fold": 4,
+              "subject": "co2a0000369",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -1.391828992859086,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 5,
+              "subject": "co2a0000370",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 1.3445574113178875,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 6,
+              "subject": "co2a0000371",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 1.7434764775846592,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 7,
+              "subject": "co2a0000372",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.10623466543607686,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 8,
+              "subject": "co2a0000375",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -0.9209402180457397,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 9,
+              "subject": "co2a0000377",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 1.7450669862552846,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 10,
+              "subject": "co2a0000378",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -1.0952014248537563,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 11,
+              "subject": "co2c0000337",
+              "actual": 0,
+              "prediction": 1,
+              "decision_score": 0.39854178784855865,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 12,
+              "subject": "co2c0000338",
+              "actual": 0,
+              "prediction": 1,
+              "decision_score": 0.7765535746905139,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 13,
+              "subject": "co2c0000339",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.9604367849735957,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 14,
+              "subject": "co2c0000340",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -1.343223755448714,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 15,
+              "subject": "co2c0000341",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.7824415949212474,
+              "n_trials": 29,
+              "correct": true
+            },
+            {
+              "fold": 16,
+              "subject": "co2c0000342",
+              "actual": 0,
+              "prediction": 1,
+              "decision_score": 0.1762659038361582,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 17,
+              "subject": "co2c0000344",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.3003041237714305,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 18,
+              "subject": "co2c0000345",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.9591433400963196,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 19,
+              "subject": "co2c0000346",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.4652019031157164,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 20,
+              "subject": "co2c0000347",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -1.1511288713308019,
+              "n_trials": 30,
+              "correct": true
+            }
+          ]
+        },
+        "rbf_svm": {
+          "label": "RBFSVM",
+          "metrics": {
+            "accuracy": 0.7,
+            "balanced_accuracy": 0.7,
+            "sensitivity": 0.7,
+            "specificity": 0.7,
+            "true_negative": 7,
+            "false_positive": 3,
+            "false_negative": 3,
+            "true_positive": 7
+          },
+          "results": [
+            {
+              "fold": 1,
+              "subject": "co2a0000364",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.19493944476405023,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 2,
+              "subject": "co2a0000365",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.03795983972207828,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 3,
+              "subject": "co2a0000368",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.5504211857166514,
+              "n_trials": 24,
+              "correct": true
+            },
+            {
+              "fold": 4,
+              "subject": "co2a0000369",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -0.6168977297922387,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 5,
+              "subject": "co2a0000370",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.6344963100826393,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 6,
+              "subject": "co2a0000371",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.22450865359510258,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 7,
+              "subject": "co2a0000372",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.09761336406670414,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 8,
+              "subject": "co2a0000375",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -0.247138974856262,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 9,
+              "subject": "co2a0000377",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.5318673536430031,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 10,
+              "subject": "co2a0000378",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -0.31497964474328394,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 11,
+              "subject": "co2c0000337",
+              "actual": 0,
+              "prediction": 1,
+              "decision_score": 0.19732934764491794,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 12,
+              "subject": "co2c0000338",
+              "actual": 0,
+              "prediction": 1,
+              "decision_score": 0.13999978323554363,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 13,
+              "subject": "co2c0000339",
+              "actual": 0,
+              "prediction": 1,
+              "decision_score": 0.17032433419343493,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 14,
+              "subject": "co2c0000340",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.675266578823028,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 15,
+              "subject": "co2c0000341",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.5667838776808751,
+              "n_trials": 29,
+              "correct": true
+            },
+            {
+              "fold": 16,
+              "subject": "co2c0000342",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.46387226805876525,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 17,
+              "subject": "co2c0000344",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.7375009924260555,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 18,
+              "subject": "co2c0000345",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.37358259293560225,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 19,
+              "subject": "co2c0000346",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.2618766438110811,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 20,
+              "subject": "co2c0000347",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.5372271862880726,
+              "n_trials": 30,
+              "correct": true
+            }
+          ]
+        }
+      }
+    },
+    "mean_std": {
+      "classifiers": {
+        "logistic_regression": {
+          "label": "LogisticRegression",
+          "metrics": {
+            "accuracy": 0.7,
+            "balanced_accuracy": 0.7,
+            "sensitivity": 0.7,
+            "specificity": 0.7,
+            "true_negative": 7,
+            "false_positive": 3,
+            "false_negative": 3,
+            "true_positive": 7
+          },
+          "results": [
+            {
+              "fold": 1,
+              "subject": "co2a0000364",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 9.615525406969818,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 2,
+              "subject": "co2a0000365",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 2.9523065752848714,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 3,
+              "subject": "co2a0000368",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 2.7655561255245162,
+              "n_trials": 24,
+              "correct": true
+            },
+            {
+              "fold": 4,
+              "subject": "co2a0000369",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -5.304361444848076,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 5,
+              "subject": "co2a0000370",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 5.931627682658748,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 6,
+              "subject": "co2a0000371",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 6.463369685944607,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 7,
+              "subject": "co2a0000372",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 2.754239889172139,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 8,
+              "subject": "co2a0000375",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -4.775513493012885,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 9,
+              "subject": "co2a0000377",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 4.252346933172695,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 10,
+              "subject": "co2a0000378",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -3.0724937750274273,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 11,
+              "subject": "co2c0000337",
+              "actual": 0,
+              "prediction": 1,
+              "decision_score": 0.7138557766621173,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 12,
+              "subject": "co2c0000338",
+              "actual": 0,
+              "prediction": 1,
+              "decision_score": 3.1734607398958836,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 13,
+              "subject": "co2c0000339",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -2.4678234600506475,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 14,
+              "subject": "co2c0000340",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -4.816010887675219,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 15,
+              "subject": "co2c0000341",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -3.794861124139463,
+              "n_trials": 29,
+              "correct": true
+            },
+            {
+              "fold": 16,
+              "subject": "co2c0000342",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.6751906784162933,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 17,
+              "subject": "co2c0000344",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -1.9678257107811676,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 18,
+              "subject": "co2c0000345",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -5.877435380804276,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 19,
+              "subject": "co2c0000346",
+              "actual": 0,
+              "prediction": 1,
+              "decision_score": 0.7082574564782793,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 20,
+              "subject": "co2c0000347",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -7.062421345811419,
+              "n_trials": 30,
+              "correct": true
+            }
+          ]
+        },
+        "linear_svm": {
+          "label": "LinearSVM",
+          "metrics": {
+            "accuracy": 0.75,
+            "balanced_accuracy": 0.75,
+            "sensitivity": 0.7,
+            "specificity": 0.8,
+            "true_negative": 8,
+            "false_positive": 2,
+            "false_negative": 3,
+            "true_positive": 7
+          },
+          "results": [
+            {
+              "fold": 1,
+              "subject": "co2a0000364",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 1.8560327306052489,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 2,
+              "subject": "co2a0000365",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.6786926575671833,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 3,
+              "subject": "co2a0000368",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.4031704439550137,
+              "n_trials": 24,
+              "correct": true
+            },
+            {
+              "fold": 4,
+              "subject": "co2a0000369",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -0.9086894535097375,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 5,
+              "subject": "co2a0000370",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 1.0806693028030545,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 6,
+              "subject": "co2a0000371",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 1.1928700194483224,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 7,
+              "subject": "co2a0000372",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.46459941182797043,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 8,
+              "subject": "co2a0000375",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -0.7356649562992165,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 9,
+              "subject": "co2a0000377",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.7891951113359481,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 10,
+              "subject": "co2a0000378",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -0.6017999496136243,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 11,
+              "subject": "co2c0000337",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.10394486746835356,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 12,
+              "subject": "co2c0000338",
+              "actual": 0,
+              "prediction": 1,
+              "decision_score": 0.538203990013803,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 13,
+              "subject": "co2c0000339",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.5767735854535518,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 14,
+              "subject": "co2c0000340",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.8695981772402593,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 15,
+              "subject": "co2c0000341",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.7421773903429808,
+              "n_trials": 29,
+              "correct": true
+            },
+            {
+              "fold": 16,
+              "subject": "co2c0000342",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.15959474005929228,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 17,
+              "subject": "co2c0000344",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.35311014209300146,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 18,
+              "subject": "co2c0000345",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -1.1449321374550834,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 19,
+              "subject": "co2c0000346",
+              "actual": 0,
+              "prediction": 1,
+              "decision_score": 0.03201193307138454,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 20,
+              "subject": "co2c0000347",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -1.3845943273735886,
+              "n_trials": 30,
+              "correct": true
+            }
+          ]
+        },
+        "rbf_svm": {
+          "label": "RBFSVM",
+          "metrics": {
+            "accuracy": 0.65,
+            "balanced_accuracy": 0.6499999999999999,
+            "sensitivity": 0.6,
+            "specificity": 0.7,
+            "true_negative": 7,
+            "false_positive": 3,
+            "false_negative": 4,
+            "true_positive": 6
+          },
+          "results": [
+            {
+              "fold": 1,
+              "subject": "co2a0000364",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.14251692220182632,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 2,
+              "subject": "co2a0000365",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -0.055919314319088226,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 3,
+              "subject": "co2a0000368",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.1722996999358625,
+              "n_trials": 24,
+              "correct": true
+            },
+            {
+              "fold": 4,
+              "subject": "co2a0000369",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -0.41486724407851217,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 5,
+              "subject": "co2a0000370",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.3621139664949956,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 6,
+              "subject": "co2a0000371",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.2581006722019708,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 7,
+              "subject": "co2a0000372",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.09933993932871281,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 8,
+              "subject": "co2a0000375",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -0.0680730494995402,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 9,
+              "subject": "co2a0000377",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.38197858494387976,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 10,
+              "subject": "co2a0000378",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -0.2633767223880714,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 11,
+              "subject": "co2c0000337",
+              "actual": 0,
+              "prediction": 1,
+              "decision_score": 0.08162607357028864,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 12,
+              "subject": "co2c0000338",
+              "actual": 0,
+              "prediction": 1,
+              "decision_score": 0.032863042209677396,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 13,
+              "subject": "co2c0000339",
+              "actual": 0,
+              "prediction": 1,
+              "decision_score": 0.008177115295173565,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 14,
+              "subject": "co2c0000340",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.45445727571444505,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 15,
+              "subject": "co2c0000341",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.3692691362202619,
+              "n_trials": 29,
+              "correct": true
+            },
+            {
+              "fold": 16,
+              "subject": "co2c0000342",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.10826954198925354,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 17,
+              "subject": "co2c0000344",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.41986505422726866,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 18,
+              "subject": "co2c0000345",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.24373654428988112,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 19,
+              "subject": "co2c0000346",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.03382020491757459,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 20,
+              "subject": "co2c0000347",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.3814779498148615,
+              "n_trials": 30,
+              "correct": true
+            }
+          ]
+        }
+      }
+    },
+    "mean_std_median": {
+      "classifiers": {
+        "logistic_regression": {
+          "label": "LogisticRegression",
+          "metrics": {
+            "accuracy": 0.7,
+            "balanced_accuracy": 0.7,
+            "sensitivity": 0.7,
+            "specificity": 0.7,
+            "true_negative": 7,
+            "false_positive": 3,
+            "false_negative": 3,
+            "true_positive": 7
+          },
+          "results": [
+            {
+              "fold": 1,
+              "subject": "co2a0000364",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 11.228910496631851,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 2,
+              "subject": "co2a0000365",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 3.6024327219608816,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 3,
+              "subject": "co2a0000368",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 4.58726178227444,
+              "n_trials": 24,
+              "correct": true
+            },
+            {
+              "fold": 4,
+              "subject": "co2a0000369",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -6.471000027099315,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 5,
+              "subject": "co2a0000370",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 6.471239080413767,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 6,
+              "subject": "co2a0000371",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 7.939667917240813,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 7,
+              "subject": "co2a0000372",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 2.826039414181026,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 8,
+              "subject": "co2a0000375",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -6.001587405841228,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 9,
+              "subject": "co2a0000377",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 5.203958329625263,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 10,
+              "subject": "co2a0000378",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -4.008149449910687,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 11,
+              "subject": "co2c0000337",
+              "actual": 0,
+              "prediction": 1,
+              "decision_score": 1.592161409969733,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 12,
+              "subject": "co2c0000338",
+              "actual": 0,
+              "prediction": 1,
+              "decision_score": 3.8404750649292714,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 13,
+              "subject": "co2c0000339",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -2.8396428151106274,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 14,
+              "subject": "co2c0000340",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -6.681519218939006,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 15,
+              "subject": "co2c0000341",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -3.9017961183311654,
+              "n_trials": 29,
+              "correct": true
+            },
+            {
+              "fold": 16,
+              "subject": "co2c0000342",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -1.083499048003425,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 17,
+              "subject": "co2c0000344",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -1.9392261948458593,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 18,
+              "subject": "co2c0000345",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -6.118032522642877,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 19,
+              "subject": "co2c0000346",
+              "actual": 0,
+              "prediction": 1,
+              "decision_score": 0.3440028760553015,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 20,
+              "subject": "co2c0000347",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -7.358478791351119,
+              "n_trials": 30,
+              "correct": true
+            }
+          ]
+        },
+        "linear_svm": {
+          "label": "LinearSVM",
+          "metrics": {
+            "accuracy": 0.75,
+            "balanced_accuracy": 0.75,
+            "sensitivity": 0.7,
+            "specificity": 0.8,
+            "true_negative": 8,
+            "false_positive": 2,
+            "false_negative": 3,
+            "true_positive": 7
+          },
+          "results": [
+            {
+              "fold": 1,
+              "subject": "co2a0000364",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 2.065285765250668,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 2,
+              "subject": "co2a0000365",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.7392887379458648,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 3,
+              "subject": "co2a0000368",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.6438672649033069,
+              "n_trials": 24,
+              "correct": true
+            },
+            {
+              "fold": 4,
+              "subject": "co2a0000369",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -1.1140728279448346,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 5,
+              "subject": "co2a0000370",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 1.0742016512186332,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 6,
+              "subject": "co2a0000371",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 1.3451677207978805,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 7,
+              "subject": "co2a0000372",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.40750167765788664,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 8,
+              "subject": "co2a0000375",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -0.8614679996816385,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 9,
+              "subject": "co2a0000377",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.8942996223325138,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 10,
+              "subject": "co2a0000378",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -0.7192632200688004,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 11,
+              "subject": "co2c0000337",
+              "actual": 0,
+              "prediction": 1,
+              "decision_score": 0.01622230465037684,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 12,
+              "subject": "co2c0000338",
+              "actual": 0,
+              "prediction": 1,
+              "decision_score": 0.6360436915649895,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 13,
+              "subject": "co2c0000339",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.5777009789179178,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 14,
+              "subject": "co2c0000340",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -1.136765985874948,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 15,
+              "subject": "co2c0000341",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.744075487112565,
+              "n_trials": 29,
+              "correct": true
+            },
+            {
+              "fold": 16,
+              "subject": "co2c0000342",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.2097751064881081,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 17,
+              "subject": "co2c0000344",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.3449868460136918,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 18,
+              "subject": "co2c0000345",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -1.1231019176218366,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 19,
+              "subject": "co2c0000346",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.05856627131420462,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 20,
+              "subject": "co2c0000347",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -1.3497857211324331,
+              "n_trials": 30,
+              "correct": true
+            }
+          ]
+        },
+        "rbf_svm": {
+          "label": "RBFSVM",
+          "metrics": {
+            "accuracy": 0.7,
+            "balanced_accuracy": 0.7,
+            "sensitivity": 0.7,
+            "specificity": 0.7,
+            "true_negative": 7,
+            "false_positive": 3,
+            "false_negative": 3,
+            "true_positive": 7
+          },
+          "results": [
+            {
+              "fold": 1,
+              "subject": "co2a0000364",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.15876373044079473,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 2,
+              "subject": "co2a0000365",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.023326491324310056,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 3,
+              "subject": "co2a0000368",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.28693261170553336,
+              "n_trials": 24,
+              "correct": true
+            },
+            {
+              "fold": 4,
+              "subject": "co2a0000369",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -0.4704488642790372,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 5,
+              "subject": "co2a0000370",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.42554058742969325,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 6,
+              "subject": "co2a0000371",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.25349278376273776,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 7,
+              "subject": "co2a0000372",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.10761921327365191,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 8,
+              "subject": "co2a0000375",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -0.11242960620628364,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 9,
+              "subject": "co2a0000377",
+              "actual": 1,
+              "prediction": 1,
+              "decision_score": 0.4348504929535022,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 10,
+              "subject": "co2a0000378",
+              "actual": 1,
+              "prediction": 0,
+              "decision_score": -0.28644430423374234,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 11,
+              "subject": "co2c0000337",
+              "actual": 0,
+              "prediction": 1,
+              "decision_score": 0.12273850230417314,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 12,
+              "subject": "co2c0000338",
+              "actual": 0,
+              "prediction": 1,
+              "decision_score": 0.05618280730267658,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 13,
+              "subject": "co2c0000339",
+              "actual": 0,
+              "prediction": 1,
+              "decision_score": 0.07030010749140439,
+              "n_trials": 30,
+              "correct": false
+            },
+            {
+              "fold": 14,
+              "subject": "co2c0000340",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.5380030114635737,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 15,
+              "subject": "co2c0000341",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.4373131689594564,
+              "n_trials": 29,
+              "correct": true
+            },
+            {
+              "fold": 16,
+              "subject": "co2c0000342",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.22307775377606417,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 17,
+              "subject": "co2c0000344",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.47368088643992295,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 18,
+              "subject": "co2c0000345",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.3004149387241475,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 19,
+              "subject": "co2c0000346",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.12351484892693157,
+              "n_trials": 30,
+              "correct": true
+            },
+            {
+              "fold": 20,
+              "subject": "co2c0000347",
+              "actual": 0,
+              "prediction": 0,
+              "decision_score": -0.43729550950070434,
+              "n_trials": 30,
+              "correct": true
+            }
+          ]
+        }
+      }
+    }
+  }
+}

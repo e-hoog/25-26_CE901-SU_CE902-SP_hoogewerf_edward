@@ -1,0 +1,227 @@
+{
+  "configuration": {
+    "dataset": "dataset\\graphs",
+    "aggregation": "mean",
+    "hidden_channels": 32,
+    "gat_heads": 4,
+    "dropout": 0.3,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "epochs": 100,
+    "patience": 15,
+    "seed": 42,
+    "device": "cuda"
+  },
+  "metrics": {
+    "accuracy": 0.65,
+    "balanced_accuracy": 0.65,
+    "sensitivity": 0.5,
+    "specificity": 0.8,
+    "true_negative": 8,
+    "false_positive": 2,
+    "false_negative": 5,
+    "true_positive": 5
+  },
+  "folds": [
+    {
+      "subject": "co2a0000364",
+      "target": 1,
+      "prediction": 1,
+      "probability_control": 0.2344653457403183,
+      "probability_alcoholic": 0.7655346989631653,
+      "n_trials": 30,
+      "fold": 1,
+      "correct": true
+    },
+    {
+      "subject": "co2a0000365",
+      "target": 1,
+      "prediction": 0,
+      "probability_control": 0.5146840810775757,
+      "probability_alcoholic": 0.4853159785270691,
+      "n_trials": 30,
+      "fold": 2,
+      "correct": false
+    },
+    {
+      "subject": "co2a0000368",
+      "target": 1,
+      "prediction": 1,
+      "probability_control": 0.49591347575187683,
+      "probability_alcoholic": 0.5040864944458008,
+      "n_trials": 24,
+      "fold": 3,
+      "correct": true
+    },
+    {
+      "subject": "co2a0000369",
+      "target": 1,
+      "prediction": 0,
+      "probability_control": 0.923363447189331,
+      "probability_alcoholic": 0.07663654536008835,
+      "n_trials": 30,
+      "fold": 4,
+      "correct": false
+    },
+    {
+      "subject": "co2a0000370",
+      "target": 1,
+      "prediction": 1,
+      "probability_control": 0.4174172282218933,
+      "probability_alcoholic": 0.5825827717781067,
+      "n_trials": 30,
+      "fold": 5,
+      "correct": true
+    },
+    {
+      "subject": "co2a0000371",
+      "target": 1,
+      "prediction": 0,
+      "probability_control": 0.5830591320991516,
+      "probability_alcoholic": 0.416940838098526,
+      "n_trials": 30,
+      "fold": 6,
+      "correct": false
+    },
+    {
+      "subject": "co2a0000372",
+      "target": 1,
+      "prediction": 0,
+      "probability_control": 0.5336329936981201,
+      "probability_alcoholic": 0.4663669764995575,
+      "n_trials": 30,
+      "fold": 7,
+      "correct": false
+    },
+    {
+      "subject": "co2a0000375",
+      "target": 1,
+      "prediction": 0,
+      "probability_control": 0.5256066918373108,
+      "probability_alcoholic": 0.4743933379650116,
+      "n_trials": 30,
+      "fold": 8,
+      "correct": false
+    },
+    {
+      "subject": "co2a0000377",
+      "target": 1,
+      "prediction": 0,
+      "probability_control": 0.5179491639137268,
+      "probability_alcoholic": 0.48205089569091797,
+      "n_trials": 30,
+      "fold": 9,
+      "correct": false
+    },
+    {
+      "subject": "co2a0000378",
+      "target": 1,
+      "prediction": 1,
+      "probability_control": 0.4996855854988098,
+      "probability_alcoholic": 0.5003144145011902,
+      "n_trials": 30,
+      "fold": 10,
+      "correct": true
+    },
+    {
+      "subject": "co2c0000337",
+      "target": 0,
+      "prediction": 1,
+      "probability_control": 0.013045938685536385,
+      "probability_alcoholic": 0.9869540333747864,
+      "n_trials": 30,
+      "fold": 11,
+      "correct": false
+    },
+    {
+      "subject": "co2c0000338",
+      "target": 0,
+      "prediction": 0,
+      "probability_control": 0.5331379771232605,
+      "probability_alcoholic": 0.4668620526790619,
+      "n_trials": 30,
+      "fold": 12,
+      "correct": true
+    },
+    {
+      "subject": "co2c0000339",
+      "target": 0,
+      "prediction": 0,
+      "probability_control": 0.5094971656799316,
+      "probability_alcoholic": 0.49050286412239075,
+      "n_trials": 30,
+      "fold": 13,
+      "correct": true
+    },
+    {
+      "subject": "co2c0000340",
+      "target": 0,
+      "prediction": 0,
+      "probability_control": 0.5477971434593201,
+      "probability_alcoholic": 0.45220282673835754,
+      "n_trials": 30,
+      "fold": 14,
+      "correct": true
+    },
+    {
+      "subject": "co2c0000341",
+      "target": 0,
+      "prediction": 0,
+      "probability_control": 0.532814085483551,
+      "probability_alcoholic": 0.467185914516449,
+      "n_trials": 29,
+      "fold": 15,
+      "correct": true
+    },
+    {
+      "subject": "co2c0000342",
+      "target": 0,
+      "prediction": 0,
+      "probability_control": 0.5891494750976562,
+      "probability_alcoholic": 0.41085049510002136,
+      "n_trials": 30,
+      "fold": 16,
+      "correct": true
+    },
+    {
+      "subject": "co2c0000344",
+      "target": 0,
+      "prediction": 0,
+      "probability_control": 0.609187126159668,
+      "probability_alcoholic": 0.39081287384033203,
+      "n_trials": 30,
+      "fold": 17,
+      "correct": true
+    },
+    {
+      "subject": "co2c0000345",
+      "target": 0,
+      "prediction": 0,
+      "probability_control": 0.5314896106719971,
+      "probability_alcoholic": 0.4685104191303253,
+      "n_trials": 30,
+      "fold": 18,
+      "correct": true
+    },
+    {
+      "subject": "co2c0000346",
+      "target": 0,
+      "prediction": 0,
+      "probability_control": 0.51113532693795878,
+      "probability_alcoholic": 0.4888646730620412,
+      "n_trials": 30,
+      "fold": 19,
+      "correct": true
+    },
+    {
+      "subject": "co2c0000347",
+      "target": 0,
+      "prediction": 0,
+      "probability_control": 0.5182589888572693,
+      "probability_alcoholic": 0.4817410111427307,
+      "n_trials": 30,
+      "fold": 20,
+      "correct": true
+    }
+  ]
+}
