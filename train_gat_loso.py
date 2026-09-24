@@ -19,8 +19,8 @@ from torch_geometric.nn import GATConv
 # Settings
 
 # Change for dataset folder
-DATASET_FOLDER = "data\\graphs"
-RESULTS_FOLDER = "results"
+DATASET_FOLDER = os.path.join("data", "graphs")
+RESULTS_FOLDER = os.path.join("results")
 
 SEED = 42
 

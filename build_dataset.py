@@ -11,9 +11,8 @@ from scipy.signal import welch
 # Settings
 
 # Change for dataset folder
-RAW_FOLDER = "data\\raw"
-
-OUTPUT_FOLDER = "data\\graphs"
+RAW_FOLDER = os.path.join("data", "raw")
+OUTPUT_FOLDER = os.path.join("data", "graphs")
 
 FS = 256.0
 
